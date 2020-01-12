@@ -1,0 +1,7 @@
+{
+    "IsEncrypted": false,
+    "Values": {
+        "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=pocdataingest;AccountKey=+L44Su+U2j3C9jdhL29CQEDDoBumvAwLd5usFgjcTNVbKcCmfoOGBFX9nVpKLQSU38sbtTKNu10g9fh2smj3ew==;BlobEndpoint=https://pocdataingest.blob.core.windows.net/;TableEndpoint=https://pocdataingest.table.core.windows.net/;QueueEndpoint=https://pocdataingest.queue.core.windows.net/;FileEndpoint=https://pocdataingest.file.core.windows.net/",
+        "FUNCTIONS_WORKER_RUNTIME": "dotnet"
+    }
+}
