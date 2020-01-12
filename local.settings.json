@@ -1,7 +1,8 @@
 {
-    "IsEncrypted": false,
-    "Values": {
-        "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=pocdataingest;AccountKey=+L44Su+U2j3C9jdhL29CQEDDoBumvAwLd5usFgjcTNVbKcCmfoOGBFX9nVpKLQSU38sbtTKNu10g9fh2smj3ew==;BlobEndpoint=https://pocdataingest.blob.core.windows.net/;TableEndpoint=https://pocdataingest.table.core.windows.net/;QueueEndpoint=https://pocdataingest.queue.core.windows.net/;FileEndpoint=https://pocdataingest.file.core.windows.net/",
-        "FUNCTIONS_WORKER_RUNTIME": "dotnet"
-    }
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=pocdataingest;AccountKey=+L44Su+U2j3C9jdhL29CQEDDoBumvAwLd5usFgjcTNVbKcCmfoOGBFX9nVpKLQSU38sbtTKNu10g9fh2smj3ew==;EndpointSuffix=core.windows.net",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "azurecosmosdbwn_DOCUMENTDB": "AccountEndpoint=https://azurecosmosdbwn.documents.azure.com:443/;AccountKey=8mqLyweVWWUxqXz1LqWzN46CnvibY73tMC5jq7cGKsV3QVHYOiScHoeND6YbpbKbCtvNsCPGWKTHBzL0LiMBag==;"
+  }
 }

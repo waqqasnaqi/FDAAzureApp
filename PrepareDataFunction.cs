@@ -9,12 +9,12 @@ namespace FDAAzureApp
 {
     public static class PrepareDataFunction
     {
-        [FunctionName("Function1")]
+        [FunctionName("PrepareDataFunction")]
         public static void Run([CosmosDBTrigger(
             databaseName: "FlightDataAnalyticsCosmosDB",
             collectionName: "TestSource",
-            ConnectionStringSetting = "FlightDataAnalyticsDocumentDB",
-            LeaseCollectionName = "leases")]IReadOnlyList<Document> input, ILogger log)
+            ConnectionStringSetting = "azurecosmosdbwn_DOCUMENTDB",
+            LeaseCollectionName = "TestSource_leases",CreateLeaseCollectionIfNotExists =true)]IReadOnlyList<Document> input, ILogger log)
         {
             if (input != null && input.Count > 0)
             {
