@@ -7,7 +7,7 @@ using Microsoft.Extensions.Logging;
 
 namespace FDAAzureApp
 {
-    public static class Function1
+    public static class PrepareDataFunction
     {
         [FunctionName("Function1")]
         public static void Run([CosmosDBTrigger(
