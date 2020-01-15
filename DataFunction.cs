@@ -23,7 +23,7 @@ namespace FDAAzureApp
 
             //var airports = 
 
-            if (input != null && input.Count > 0)
+            if (input != null && input.Count > 0) 
             {
                 //var departureAirport = CosmosDBHelper.GetItemsByQuery(client, "FlightDataAnalyticsCosmosDB", "Airports", "select TOP 1 * from c where DepAptIATACode = " +input.);
                 IPrepareData prepareData = new PrepareData();
