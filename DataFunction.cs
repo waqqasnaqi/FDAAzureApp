@@ -1,6 +1,6 @@
 using System;
 using System.Collections.Generic;
-using FlightDataAnalytics;
+using DataAnalytics;
 using Microsoft.Azure.Documents;
 using Microsoft.Azure.Documents.Client;
 using Microsoft.Azure.WebJobs;

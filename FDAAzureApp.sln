@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FDAAzureApp", "FDAAzureApp.csproj", "{705A8F0E-57CA-4D7C-9D0D-76F1DCCD7356}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightDataAnalytics", "..\FlighrDataAnalytics\FlightDataAnalytics.csproj", "{185F0FA6-8964-4357-9DFF-A0B7222C5E2C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAnalytics", "DataAnalytics\DataAnalytics.csproj", "{DC0112B6-E83E-4E9F-AA04-156209E4D0CC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{705A8F0E-57CA-4D7C-9D0D-76F1DCCD7356}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{705A8F0E-57CA-4D7C-9D0D-76F1DCCD7356}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{705A8F0E-57CA-4D7C-9D0D-76F1DCCD7356}.Release|Any CPU.Build.0 = Release|Any CPU
-		{185F0FA6-8964-4357-9DFF-A0B7222C5E2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{185F0FA6-8964-4357-9DFF-A0B7222C5E2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{185F0FA6-8964-4357-9DFF-A0B7222C5E2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{185F0FA6-8964-4357-9DFF-A0B7222C5E2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC0112B6-E83E-4E9F-AA04-156209E4D0CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC0112B6-E83E-4E9F-AA04-156209E4D0CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC0112B6-E83E-4E9F-AA04-156209E4D0CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC0112B6-E83E-4E9F-AA04-156209E4D0CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
