@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FDAAzureApp", "FDAAzureApp.csproj", "{705A8F0E-57CA-4D7C-9D0D-76F1DCCD7356}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FDAAzureApp", "FDAAzureApp\FDAAzureApp.csproj", "{705A8F0E-57CA-4D7C-9D0D-76F1DCCD7356}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAnalytics", "DataAnalytics\DataAnalytics.csproj", "{DC0112B6-E83E-4E9F-AA04-156209E4D0CC}"
 EndProject

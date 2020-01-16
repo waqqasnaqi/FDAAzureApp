@@ -4,17 +4,12 @@
     <AzureFunctionsVersion>v2</AzureFunctionsVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Remove="DataAnalytics\**" />
-    <EmbeddedResource Remove="DataAnalytics\**" />
-    <None Remove="DataAnalytics\**" />
-  </ItemGroup>
-  <ItemGroup>
     <PackageReference Include="Microsoft.Azure.WebJobs.Extensions.CosmosDB" Version="3.0.5" />
     <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="1.0.29" />
     <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.7.0" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="DataAnalytics\DataAnalytics.csproj" />
+    <ProjectReference Include="..\DataAnalytics\DataAnalytics.csproj" />
   </ItemGroup>
   <ItemGroup>
     <None Update="host.json">
