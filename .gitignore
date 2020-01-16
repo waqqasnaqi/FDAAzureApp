@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/FDAAzureApp/v16/Server/sqlite3/storage.ide-wal
+/.vs/FDAAzureApp/v16/.suo
+/.vs/FDAAzureApp/v16/Server/sqlite3/db.lock
+/.vs/FDAAzureApp/v16/Server/sqlite3/storage.ide
+/.vs/FDAAzureApp/v16/Server/sqlite3/storage.ide-shm
