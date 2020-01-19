@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FDAAzureApp", "FDAAzureApp\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAnalytics", "DataAnalytics\DataAnalytics.csproj", "{DC0112B6-E83E-4E9F-AA04-156209E4D0CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticObjects", "StaticObjects\StaticObjects.csproj", "{92734059-3BFB-4A08-BD65-C4CBF1D409CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Models", "StaticObjects\Models.csproj", "{92734059-3BFB-4A08-BD65-C4CBF1D409CA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

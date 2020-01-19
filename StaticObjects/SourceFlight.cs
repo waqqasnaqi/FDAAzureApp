@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace StaticObjects
+namespace Models
 {
     public class SourceFlight
     {

@@ -8,7 +8,7 @@ namespace DataAnalytics
     {
         IReadOnlyList<Document> IPrepareData.PrepareData(IReadOnlyList<Document> input, ILogger log)
         {
-                        
+            CosmosDBHelper            
             return input; 
         }        
     }
